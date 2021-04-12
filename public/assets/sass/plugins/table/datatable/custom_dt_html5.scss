@@ -1,0 +1,17 @@
+//  =================
+//      Imports
+//  =================
+
+@import '../../../base/color_variables';    // Color Variables
+@import '../../../base/functions';        // Functions Variables
+@import '../../../base/mixins';         // Mixins Variables
+@import '../../../base/utilities';        // Utilities Variables
+
+.dt-buttons .dt-button {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $primary;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-right: 5px;
+}

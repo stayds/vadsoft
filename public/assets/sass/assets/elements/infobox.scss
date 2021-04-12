@@ -1,0 +1,23 @@
+//  =================
+//      Imports
+//  =================
+
+@import '../../base/color_variables';    // Color Variables
+@import '../../base/functions';        // Functions Variables
+@import '../../base/mixins';         // Mixins Variables
+@import '../../base/utilities';        // Utilities Variables
+
+
+//  ===============================
+//       _infobox Imports 
+//  ===============================
+
+@import '_infobox/_infobox-1';
+@import '_infobox/_infobox-2';
+@import '_infobox/_infobox-3';
+
+@media (max-width: 575px) {
+  .infobox-1, .infobox-2, .infobox-3 {
+    width: auto;
+  }
+}

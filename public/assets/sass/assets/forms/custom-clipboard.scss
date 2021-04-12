@@ -1,0 +1,29 @@
+//  =================
+//      Imports
+//  =================
+
+@import '../../base/color_variables';    // Color Variables
+@import '../../base/functions';        // Functions Variables
+@import '../../base/mixins';         // Mixins Variables
+@import '../../base/utilities';        // Utilities Variables
+
+
+textarea {
+  resize: none;
+}
+
+.clipboard {
+  background-color: $m-color_1;
+  padding: 20px;
+  border-radius: 6px;
+
+  &.copy-txt {
+    background-color: $m-color_1;
+
+    .otp-pass span {
+      font-size: 24px;
+      font-weight: 600;
+      color: $dark;
+    }
+  }
+}

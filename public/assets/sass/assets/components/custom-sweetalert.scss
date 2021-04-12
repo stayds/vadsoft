@@ -1,0 +1,16 @@
+//  =================
+//      Imports
+//  =================
+
+@import '../../base/color_variables';    // Color Variables
+@import '../../base/functions';        // Functions Variables
+@import '../../base/mixins';         // Mixins Variables
+@import '../../base/utilities';        // Utilities Variables
+
+.widget-content .row.padding35 .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-right: 5px;
+}

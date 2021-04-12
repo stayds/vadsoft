@@ -1,0 +1,18 @@
+//  =================
+//      Imports
+//  =================
+
+@import '../../base/color_variables';    // Color Variables
+@import '../../base/functions';        // Functions Variables
+@import '../../base/mixins';         // Mixins Variables
+@import '../../base/utilities';        // Utilities Variables
+
+
+.jumbotron p {
+  text-align: left;
+}
+
+.display-4 {
+  word-wrap: break-word;
+  font-size: 45px;
+}
